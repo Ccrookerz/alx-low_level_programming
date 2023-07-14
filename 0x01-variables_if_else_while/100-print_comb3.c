@@ -31,7 +31,6 @@ int main(void)
 			{
 				putchat('0' + d);
 				putchat('0' + c);
-
 				if (c + d != 17)
 				{
 					putchar(',');
