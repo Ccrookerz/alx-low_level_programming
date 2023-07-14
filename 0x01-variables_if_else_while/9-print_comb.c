@@ -11,11 +11,11 @@ int main(void)
 	for (k = 48; k <= 57; k++)
 	{
 		putchar(k);
-	}
-	if (k < 57)
-	{
-		putchar(',');
-		putchar(' ');
+		if (k < 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
