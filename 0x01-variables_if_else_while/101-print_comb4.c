@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Entry point
@@ -10,25 +8,34 @@
 
 int main(void)
 {
-	int p, q;
+	int digit1 = 0
+	int digit2, digit3;
 
-	for (p = 0; p <= 98; p++)
+	while (digit1 <= 9)
 	{
-		for (q = p + 1; q <= 99; q++)
+		digit2 = 0;
+		while (digit3 <= 9)
 		{
-			putchar((p / 10) + '0');
-			putchar((p % 10) + '0');
-			putchar(' ');
-			putchar((q / 10) + '0');
-			putchar((q % 10) + '0');
+			if (digit1 != digit2 &&
+				digit1 < digit2 &&
+				digit2 != digit3 &&
+				digit2 < digit3)
+			{
+				putchar(digit1 + 48);
+				putchar(digit2 + 48);
+				putchar(digit3 + 48);
 
-			if (p == 98 && q == 99)
-				continue;
-
-			putchar(',');
-			putchar(' ');
+				if (digit1 + digit2 + digit3 != 24)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			digit3++;
 		}
+		digit2++;
 	}
+	digit1++;
 
 	putchar('\n');
 	return (0);
