@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: print lowercase letters of the alphabet that are not 'q' and 'e'
+ * Description: print lowercase letters of the alphabet that aren't 'q' and 'e'
  * Return: 0
  */
 int main(void)
 {
 	char c = 'a';
 
-	while (c <= 'Z')
+	while (c <= 'z')
 	{
 		if (c != 'e' && c != 'q')
 		{
@@ -16,6 +16,7 @@ int main(void)
 		}
 		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
