@@ -20,4 +20,17 @@ Project files in `0x01. C - Variables, if, else, while` include:
 - `7-print_tebahpla.c`: A C program that prints all the lowercase alphabet in reverse order, followed by a new line.
 - `8-print_base16.c`: A C program that prints all the numbers of base 16 (hexadecimal) in lowercase, follwed by a new line.
 - `9-print_comb.c`: A C program that prints all possible combinations of single-digit numbers, seperated by commas.
-- `10-print_comb3.c`: A C program that prints all possible
+- `10-print_comb3.c`: A C program that prints all possible combinations of two-digit numbers, seperated by commas.
+- `100-print_comb3.c`: A C program that prints all possible combinations of three-digit numbers, seperated by commas.
+- `101-print_com4.c`: A C program that prints all possible combinations of four-digit numbers, seperated by commas.
+- `102-print_comb5.c`: A C program that prints all possible combinations of two two-digit numbers, seperated by commas.
+
+## Resources
+- [integers]()
+- [while loop in C]()
+- [if statements in C]()
+- [Arithmetic Operators in C]()
+- [Keywords and identifiers]()
+
+## Author
+This project was done by [Oluwalade Nifemi](https://github.com/Ccrookerz/alx-low_level_programming)
