@@ -1,9 +1,11 @@
-#include "main.h"
+#include <main.h>
+
 /**
  * main - Entry point
  * Description: prints '_putchar\n'
  * Return: Always 0(Success)
  */
+
 int main(void)
 {
 	char str[] = "_putchar";
