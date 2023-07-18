@@ -4,7 +4,7 @@
  * print_alphabet - Prints alphabets 'a - z'
  */
 
-void print_alphabe(void)
+void print_alphabetZ(void)
 {
 	char c;
 
