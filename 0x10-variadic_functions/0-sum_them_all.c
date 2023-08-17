@@ -1,3 +1,8 @@
+/*
+ * File: 0-sum_them_all.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "variadic_functions.h"
 #include <stdarg.h>
 
@@ -11,15 +16,15 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	va_list ap;
-	unsigned int i, sum = 0;
+	va_list nums;
+	unsigned int index, sum = 0;
 
-	va_start(ap, n);
+	va_start(nums, n);
 
-	for (i = 0; i < n; i++)
-		sum += va_arg(ap, int);
+	for (index = 0; index < n; index++)
+		sum += va_arg(nums, int);
 
-	va_end(ap);
+	va_end(nums);
 
 	return (sum);
 }
